@@ -1,0 +1,646 @@
+*{
+
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+
+}
+
+.wrraped{
+
+	width: 100%;
+  margin: 0 auto;
+  background: white;
+
+}
+
+.box{
+
+	width: 100%;
+	height: 700px;
+	display: flex;
+	justify-content: space-around;
+  align-items: center;
+	flex-direction: row;
+
+}
+
+.div_header1{
+
+	width: 80%;
+	height: 700px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-left: 400px;
+	background: grey;
+	justify-content: space-around;
+
+}
+
+ .menu{
+
+	position: fixed; 
+	width: 30%; 
+	margin-right: 1144px;
+	background: darkviolet;
+  border: 13px #bab413 solid;
+  height: 1000px;
+	display: flex;
+	flex-direction: column;
+  animation-name: example;
+ 	animation-duration: 10s;
+	justify-content: space-around;
+	align-items: center;
+
+}
+
+@keyframes example {
+
+  0%   {border: 13px solid red;}
+  5%  {border: 13px solid  yellow;}
+  10%  {border: 13px solid  orange;}
+  15% {border: 13px solid  RebeccaPurple;}
+  20%   {border: 13px solid  red;}
+  25%  {border: 13px solid  yellow;}
+  30%  {border: 13px solid orange;}
+  35% {border: 13px solid  RebeccaPurple;}
+  40%   {border: 13px solid  red;}
+  45%  {border: 13px solid  yellow;}
+  50%  {border: 13px solid  orange;}
+  55% {border: 13px solid  RebeccaPurple;}
+  60%   {border: 13px solid  red;}
+  65%  {border: 13px solid  yellow;}
+  70%  {border: 13px solid  orange;}
+  75% {border: 13px solid  RebeccaPurple;}
+  80%  {border: 13px solid  orange;}
+  85% {border: 13px solid  RebeccaPurple;}
+  90%   {border: 13px solid  red;}
+  95%  {border: 13px solid  yellow;}
+  100%  {border: 13px solid  orange;}
+  105%   {border: 13px solid  red;}
+
+}
+
+.yellow_div{
+
+	width: 100%;
+	height: 50px;
+	background: yellow;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+
+}
+
+.div_header2{
+
+	width: 100%;
+	height: 700px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+
+}
+
+.text1_header{
+
+	color: white;
+  font-size: 30px;
+  margin-left: 400px;
+  margin-top: 50px;
+
+}
+
+.h1_header{
+
+	font-size: 70px;
+	margin-left: 400px;
+	margin-top: 122px;
+  color: white;
+	text-shadow: 5px 5px 8px rgba(0, 0, 0, 0.5);
+
+}
+
+.headertext{
+
+	width: 100%;
+	height: 600px;
+	display: flex;
+	flex-direction: column;
+
+} 
+
+.text4{
+
+	align-items: center;
+	color: white;
+	margin: 10px;
+	font-size: 45px;
+  text-shadow: 5px 5px 8px  rgba(0, 0, 0, 0.5);
+  transition: 1s; 
+  text-align: center;
+
+}
+
+.text4:hover {
+
+  transform: scale(1.2); 
+
+}
+
+.p_text_menu{
+
+	width: 100%;
+	height: 100px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+
+}
+
+.contact{
+
+	width: 85%;
+	height: 100px;
+	display: flex;
+	margin-left: 30px;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-around;
+
+}
+
+.img6{
+
+	width: 50px;
+	border-radius: 100%;
+	text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  transition: 1s;  
+  text-align: center; 
+	height: 50px;
+
+}
+
+.img6:hover {
+
+  transform: scale(1.2); 
+
+}
+
+.div_header2{
+
+	background-image: url(../img/img2.png);
+	background-position: center;
+	background-size: 100% 100%;
+
+
+}
+
+.text4{
+
+	font-family: fantasy;
+	font-size:60px;
+
+}
+
+.text1_header{
+
+	font-family: fantasy;
+ 	text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+
+}
+
+.h1_header{
+
+	font-family: fantasy;
+
+}
+
+.img_tr{
+
+	margin-left: 1035px;
+	width: 35px;
+	height: 35px;
+
+}
+
+.wrraped2{
+
+	width: 75%;
+	height: 850px;
+	background-image: url(../img/img4.png);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-left: 400px;
+	justify-content: space-around;
+	border: 40px solid yellow;
+
+}
+
+.wrap_box{
+
+	width: 50%;
+	height: 150px;
+	background:  #bab413;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	border: 13px solid yellow;
+	text-align: center; 
+	animation-name: example2;
+ 	animation-duration: 10s;
+	justify-content: space-around;
+	align-items: center;
+
+}
+
+.wrap_text1{
+
+	font-family: fantasy;
+	font-size: 50px;
+	color: black;
+	text-shadow: 5px 5px 8px rgba(0, 0, 0, 0.5);
+	transition: 1s;  
+	 
+}
+
+@keyframes example2 {
+
+  0%   {border: 13px solid red;}
+  5%  {border: 13px solid  yellow;}
+  10%  {border: 13px solid  orange;}
+  15% {border: 13px solid  RebeccaPurple;}
+  20%   {border: 13px solid  red;}
+  25%  {border: 13px solid  yellow;}
+  30%  {border: 13px solid orange;}
+  35% {border: 13px solid  RebeccaPurple;}
+  40%   {border: 13px solid  red;}
+  45%  {border: 13px solid  yellow;}
+  50%  {border: 13px solid  orange;}
+  55% {border: 13px solid  RebeccaPurple;}
+  60%   {border: 13px solid  red;}
+  65%  {border: 13px solid  yellow;}
+  70%  {border: 13px solid  orange;}
+  75% {border: 13px solid  RebeccaPurple;}
+  80%  {border: 13px solid  orange;}
+  85% {border: 13px solid  RebeccaPurple;}
+  90%   {border: 13px solid  red;}
+  95%  {border: 13px solid  yellow;}
+  100%  {border: 13px solid  orange;}
+  105%   {border: 13px solid  red;}
+
+} 
+
+.wrap_text1:hover {
+
+  transform: scale(1.2); 
+
+}
+
+.box4_wr{
+
+	width: 90%;
+	margin-bottom: 40px;
+	margin-right: 50px;
+	height: 500px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+
+}
+
+.box2_wr{
+
+	width: 100%;
+	height: 230px;
+	display: flex;
+	align-items: center;
+	flex-direction: row;
+	justify-content: space-around;
+
+}
+
+.box_wr{
+
+	width: 250px;
+	height: 220px;
+	background: yellow;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+  position: relative;
+  justify-content: center;
+  animation-name: example3;
+	animation-duration: 4s;
+  animation-iteration-count: infinite;
+	border: 10px solid darkviolet;
+
+}
+
+.text_wr{
+
+	font-family: fantasy;
+	text-align: center;
+	font-size: 20px;
+	text-shadow: 5px 5px 8px rgba(0, 0, 0, 0.5);
+
+}
+
+@keyframes example3 {
+
+  0%   {background-color: yellow; left:0px; top:0px;}
+  25%  {background-color:#bab413; left:50px; top:0px;}
+  50%  {background-color: yellow; left:50px; top:50px;}
+  75%  {background-color:#bab413; left:0px; top:50px;}
+  100% {background-color: yellow; left:0px; top:0px;}
+
+}
+
+.item:hover {
+
+  transform: scale(1.5);
+  background: red;
+  z-index: 1;
+  transition: transform .5s;
+
+}
+
+.box4_wr {
+
+  display: block;
+  padding-top: 10px;
+  padding-left: 10px;
+  box-sizing: border-box;
+
+}
+
+.item {
+
+  height: 31vh;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  transition: transform .15s;
+
+}
+
+ .text4{
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.text4:hover {
+
+  cursor: pointer;
+
+}
+
+.imgend{
+
+  width: 73%;
+  height: 600px;
+  border: 30px solid yellow;
+  display: flex;
+  margin-left: 410px;
+  align-items: end;
+
+}
+
+.IMG1{
+
+	width: 100%;
+	height: 100%;
+
+}
+
+.canvas {
+
+	width: 100%;
+	height: 600px;
+	margin-left: 400px;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  align-items: center;
+  padding: 200px;
+  max-width: 1200px;
+  border: 10px solid yellow;
+  background-image: url(../img/img3.jpg);
+	background-position: center;
+	background-size: 100% 100%;
+
+}
+
+.unit {
+
+  fill: none;
+  stroke-width: 10;
+
+}
+
+
+.legend {
+
+  max-width: 291px;
+  width: 274px;
+  margin-left: 30px;
+
+}
+
+.title {
+
+  font-family: fantasy;
+  font-size: 62px;
+  padding-bottom: 62px;
+  line-height: 66px;
+  color: white;
+
+}
+
+.caption-list {
+
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+}
+
+.caption-item {
+
+  position: relative;
+  margin: 20px 0;
+  padding-left: 30px;
+  font-family: fantasy;
+  font-size: 32px;
+  line-height: 18px;
+  margin-bottom: 54px;
+  color: white;
+  display: flex;
+  cursor: pointer;
+
+}
+
+.caption-item:hover {
+
+  opacity: 0.8;
+
+}
+
+.caption-item::before {
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  border-radius: 8px;
+
+}
+
+@keyframes render {
+
+  0% {
+
+  stroke-dasharray: 0 100;
+
+  }
+}
+
+.unit {
+
+  animation-name: render;
+  animation-duration: 1.5s;
+
+}
+
+.unit:hover {
+
+  opacity: 0.8;
+  stroke-width: 12;
+
+}
+
+.unit {
+
+  transition-property: all;
+  transition-duration: 1.5s;
+
+}
+
+.unit {
+
+  fill: none;
+  stroke-width: 10;
+
+}
+
+
+.unit:nth-child(1) {
+
+  stroke: #86cfa3;
+  stroke-dasharray: 8 100;
+
+}
+
+.unit:nth-child(2) {
+
+  stroke: #a2c6e0;
+  stroke-dasharray: 11 100;
+  stroke-dashoffset: -8;
+
+}
+
+.unit:nth-child(3) {
+
+  stroke: #ffc7ec;
+  stroke-dasharray: 11 100;
+  stroke-dashoffset: -19;
+
+}
+
+.unit:nth-child(4) {
+
+  stroke: #86cfa3;
+  stroke-dasharray: 11 100;
+  stroke-dashoffset: -30;
+
+}
+
+.unit:nth-child(5) {
+
+  stroke: #a2c6e0;
+  stroke-dasharray: 11 100;
+  stroke-dashoffset: -40;
+
+}
+
+.unit:nth-child(6) {
+
+  stroke: #ffc7ec;
+  stroke-dasharray: 11 100;
+  stroke-dashoffset: -50;
+
+}
+
+.unit:nth-child(7) {
+
+  stroke: #86cfa3;
+  stroke-dasharray: 11 100;
+  stroke-dashoffset: -60;
+
+}
+
+.unit:nth-child(3) {
+
+  stroke: yellow;
+  stroke-dasharray: 18;
+  stroke-dashoffset: -16;
+
+  }
+
+.unit:nth-child(1) {
+
+  stroke: darkviolet;
+  stroke-dasharray: 17;
+
+}
+
+.unit:nth-child(2) {
+
+  stroke: #FFB300;
+  stroke-dasharray: 17;
+  stroke-dashoffset: -113;
+
+}
+
+.vio{
+
+	width: 20px;
+	height: 20px;
+	background: darkviolet;
+
+}
+
+.or{
+
+	width: 20px;
+	height: 20px;
+	background: orange;
+
+}
+
+.yel{
+
+	width: 20px;
+	height: 20px;
+	background: yellow;
+	
+}
